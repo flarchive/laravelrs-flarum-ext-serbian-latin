@@ -1,0 +1,72 @@
+# Custom Dutch Laravel Localization
+# Based on: https://github.com/caouecs/Laravel-lang/tree/master/nl
+# Source: https://github.com/laravel/laravel/tree/master/resources/lang/en
+
+validation:
+  accepted: ":attribute skal accepteres."
+  active_url: ":attribute er ikke en gyldig webadresse."
+  after: ":attribute skal være en dato, efter :date."
+  alpha: ":attribute kan kun indeholde bogstaver."
+  alpha_dash: ":attribute kan kun indeholde bogstaver, tal og bindestreg."
+  alpha_num: ":attribute kan kun indeholde bogstaver og tal."
+  array: ":attribute skal være et array."
+  before: ":attribute skal være en dato, før :date."
+  between:
+    numeric: ":attribute bør være mellem :min og :max."
+    file: ":attribute bør være mellem :min og :max kilobytes."
+    string: ":attribute bør være mellem :min og :max tegn."
+    array: ":attribute bør være mellem :min og :max items."
+  boolean: ":attribute felt skal være Ja eller Nej."
+  confirmed: ":attribute bekræftelse matcher ikke."
+  date: ":attribute er ikke en gyldig dato."
+  date_format: ":attribute svarer ikke formatet :other."
+  different: ":attribute og :other er forskellige."
+  digits: ":attribute skal være :digits tal."
+  digits_between: ":attribute skal være imellem :min og :max."
+  email: ":attribute skal være en gyldig e-mail-adresse."
+  exists: ":attribute er ugyldig."
+  filled: ":attribute er påkrævet."
+  image: ":attribute skal være et billede."
+  in: ":attribute er ugyldig."
+  integer: ":attribute skal være et heltal."
+  ip: ":attribute skal være en gyldig IP-adresse."
+  json: ":attribute skal være en gyldig JSON streng."
+  max:
+    numeric: ":attribute kan ikke være større end :max."
+    file: ":attribute må ikke være større end :max kilobytes."
+    string: ":attribute bør ikke overstige :max tegn."
+    array: ":attribute bør ikke overstige :max elementer."
+  mimes: ":attribute skal være en fil af typen: :values."
+  min:
+    numeric: ":attribute skal være mindst :min."
+    file: ":attribute skal være mindst :min kilobytes."
+    string: ":attribute skal være mindst :min tegn."
+    array: ":attribute skal mindst indeholde :min elementer."
+  not_in: ":attribute er ugyldig."
+  numeric: ":attribute skal være et tal."
+  regex: ":attribute format er ugyldigt."
+  required: ":attribute felt er påkrævet."
+  required_if: ":attribute er påkrævet når :other :value."
+  required_with: ":attribute er påkrævet, når :values er til stede."
+  required_with_all: ":attribute er påkrævet, når :values er til stede."
+  required_without: ":attribute er påkrævet, når :values ikke er til stede."
+  required_without_all: ":attribute er påkrævet, når en af :values forekommer."
+  same: ":attribute og :other skal matche."
+  size:
+    numeric: ":attribute bør være :size."
+    file: ":attribute bør være :size kilobytes."
+    string: ":attribute bør være :size tegn."
+    array: ":attribute bør består indeholde :size elementer."
+  string: ":attribute skal være en tekststreng."
+  timezone: ":attribute skal være en gyldig zone."
+  unique: ":attribute er allerede i brug."
+  url: ":attribute format er ugyldigt."
+
+  attributes:
+    username: brugernavn
+    password: kodeord
+    email: e-mailadresse
+    title: titel
+    content: indhold
+    name_singular: navn i ental
+    name_plural: navn i flertal

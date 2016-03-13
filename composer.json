@@ -1,0 +1,48 @@
+{
+    "name": "laravelrs/serbian",
+    "type": "flarum-extension",
+    "description": "Serbian language pack.",
+    "homepage": "https://github.com/laravelrs/Flarum-sr-RS",
+    "keywords": ["locale"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Laravel Serbia",
+            "email": "laravel.rs@gmail.com",
+            "homepage": "https://laravel.rs/"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/laravelrs/Flarum-sr-RS/issues",
+        "source": "https://github.com/laravelrs/Flarum-sr-RS",
+        "forum": "https://discuss.flarum.org/"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.4"
+    },
+    "suggest": {
+        "flarum/flags": "Allow users to flag posts for moderator review",
+        "flarum/likes": "Allow users to like posts",
+        "flarum/lock": "End a discussion and don't let anyone add further replies",
+        "flarum/mentions": "Mention and reply to specific posts and users",
+        "flarum/pusher": "See new discussions and posts in real-time using Pusher",
+        "flarum/sticky": "Pin discussions to the top of the list",
+        "flarum/subscriptions": "Allow users to follow discussions and receive notifications for new posts",
+        "flarum/tags": "Organize discussions into a hierarchy of tags and categories"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Serbian",
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#fff",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "sr",
+            "title": "Serbian"
+        }
+    }
+}

@@ -1,0 +1,100 @@
+flarum-tags:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Strings in this namespace are used by the admin interface.
+  admin:
+
+    # These strings are used in the Basics page.
+    basics:
+      tags_label: => flarum-tags.ref.tags
+
+    # These strings are used in the Edit Tag modal dialog.
+    edit_tag:
+      color_label: Boja
+      description_label: Opis
+      delete_tag_button: Obriši oznaku
+      delete_tag_confirmation: "Da li si siguran da želiš da obrišeš ovu oznaku? Diskusije sa ovom oznakom NEĆE biti obrisane."
+      hide_label: Ukloni iz Svih Diskusija
+      name_label: => flarum-tags.ref.name
+      name_placeholder: => flarum-tags.ref.name
+      slug_label: Slag (slug)
+      submit_button: => core.ref.save_changes
+      title: => flarum-tags.ref.create_tag
+
+    # These strings are used in the navigation bar.
+    nav:
+      tags_button: => flarum-tags.ref.tags
+      tags_text: Uredi listu oznaka dostupnih za organizovanje diskusija.
+
+    # These strings are used in the Permissions page of the admin interface.
+    permissions:
+      restrict_by_tag_heading: Ograniči po Oznaci
+      tag_discussions_label: Označi diskusiju
+
+    # These strings are used in the Tag Settings modal dialog.
+    tag_settings:
+      range_separator_text: " do "
+      required_primary_heading: Neophodan Broj Primarnih Oznaka
+      required_primary_text: Unesi minimalan i maksimalan broj primarnih oznaka koje moraju biti dodeljene diskusiji.
+      required_secondary_heading: Neophodan Broj Sekundarnih Oznaka
+      required_secondary_text: Unesi minimalan i maksimalan broj sekundarnih oznaka koje moraju biti dodeljene diskusiji.
+      title: Podešavanje Oznaka
+
+    # These strings are used in the Tags page.
+    tags:
+      about_tags_text: "Oznake se koriste za kategorizaciju diskusija. Primarne oznake su poput tradicionalnih kategorija foruma: mogu biti kao hijerarhija u dva nivoa. Sekundarne oznake nemaju hijerarhiju ili red, i korisne su za mikro kategorizaciju."
+      create_tag_button: => flarum-tags.ref.create_tag
+      primary_heading: Primarne Oznake
+      secondary_heading: Sekundarne Oznake
+      settings_button: Podešavanja
+
+  # Strings in this namespace are used by the forum user interface.
+  forum:
+
+    # These strings are used by the Choose Tags modal dialog.
+    choose_tags:
+      choose_primary_placeholder: "Odaberi primarnu oznaku|Odaberi {count} primarne oznake"
+      choose_secondary_placeholder: "Odaberi još jednu oznaku|Odaberi još {count} oznake"
+      edit_title: "Izmeni Oznake za {title}"
+      submit_button: => core.ref.okay
+      title: Odaberi Oznake za Svoju Diskusiju
+
+    # These strings are used by the composer when starting a discussion.
+    composer_discussion:
+      choose_tags_link: Odaberi Oznake
+
+    # These strings are used by the discussion control buttons.
+    discussion_controls:
+      edit_tags_button: Izmeni Oznake
+
+    # These strings are used on the index page, peripheral to the discussion list.
+    index:
+      tags_link: => flarum-tags.ref.tags
+      more_link: Još...
+      untagged_link: Bez oznaka
+
+    # These strings are displayed between posts in the post stream.
+    post_stream:
+      added_tags_text: "{username} je dodao {tagsAdded}."
+      added_and_removed_tags_text: "{username} je dodao {tagsAdded} i uklonio {tagsRemoved}."
+      removed_tags_text: "{username} je uklonio {tagsRemoved}."
+      tags_text: "{tags} oznaka|{tags} oznake"
+
+  # Strings in this namespace are used by the forum and admin interfaces.
+  lib:
+
+    # This string is displayed in place of the name of a tag that's been deleted.
+    deleted_tag_text: Obrisana
+
+  ##
+  # REUSED STRINGS - These keys should not be used directly in code!
+  ##
+
+  # Strings in this namespace are referenced by two or more unique keys.
+  ref:
+    create_tag: Kreiraj Oznaku
+    name: Ime
+    tags: Oznake

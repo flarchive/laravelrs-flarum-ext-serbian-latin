@@ -1,0 +1,37 @@
+flarum-lock:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Strings in this namespace are used by the admin interface.
+  admin:
+
+    # These strings are used in the Permissions page of the admin interface.
+    permissions:
+      lock_discussions_label: Zaključaj diskusije
+
+  # Strings in this namespace are used by the forum user interface.
+  forum:
+
+    # These strings are displayed as tooltips for discussion badges.
+    badge:
+      locked_tooltip: Zaključana
+
+    # These strings are used by the discussion control buttons.
+    discussion_controls:
+      lock_button: Zaključaj
+      unlock_button: Otključaj
+
+    # These strings are used by the Notifications dropdown, a.k.a. "the bell".
+    notifications:
+      discussion_locked_text: "{username} je zaključao"
+
+    # These strings are displayed between posts in the post stream.
+    post_stream:
+      discussion_locked_text: "{username} je zaključao diskusiju."
+      discussion_unlocked_text: "{username} je otključao diskusiju."
+
+    # These strings are used in the Settings page.
+    settings:
+      notify_discussion_locked_label: Neko zaključava diskusiju koju sam ja započeo

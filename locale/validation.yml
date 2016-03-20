@@ -1,0 +1,68 @@
+validation:
+  accepted: ":attribute mora biti prihvaćen."
+  active_url: ":attribute nije validan URL."
+  after: ":attribute mora biti datum posle :date."
+  alpha: ":attribute mora samo slova da sadrži."
+  alpha_dash: ":attribute mora samo da sadrži slova, brojeve i povlake."
+  alpha_num: ":attribute mora samo da sadrži slova i brojeve."
+  array: ":attribute mora da bude niz."
+  before: ":attribute mora da bude datum pre :date."
+  between:
+    numeric: ":attribute mora da bude izmedju :min i :max."
+    file: ":attribute mora da bude izmedju :min i :max kilobajta."
+    string: ":attribute mora da bude izmedju :min i :max karaktera."
+    array: ":attribute mora da bude izmedju :min i :max stavki."
+  boolean: ":attribute polje mora da bude true ili false."
+  confirmed: ":attribute potvrda se ne poklapa."
+  date: ":attribute nije validan datum."
+  date_format: ":attribute nije adekvatnog formata :other."
+  different: ":attribute i :other moraju da budu različiti."
+  digits: ":attribute moraju da budu :digits brojevi."
+  digits_between: ":attribute mora da bude izmedju :min i :max brojeva."
+  email: ":attribute mora da bude validna email adresa."
+  exists: "Odabrani :attribute nije validan."
+  filled: ":attribute polje je neophodno."
+  image: ":attribute mora da bude slika."
+  in: "Odabrani :attribute nije validan."
+  integer: ":attribute mora da bude broj."
+  ip: ":attribute mora da bude validna IP adresa."
+  json: ":attribute mora da bude validan JSON tekst."
+  max:
+    numeric: ":attribute mora da bude manji od :max."
+    file: ":attribute mora da bude manji od :max kilobajta."
+    string: ":attribute mora da bude kraći od :max karaktera."
+    array: ":attribute mora da ima manje od :max stavki."
+  mimes: ":attribute mora da bude dokument tipa: :values."
+  min:
+    numeric: ":attribute mora da bude minimum :min."
+    file: ":attribute mora da bude minimum :min kilobajta."
+    string: ":attribute mora da bude minimum :min karaktera."
+    array: ":attribute mora da ima minimum :min stavki."
+  not_in: "Odabrani :attribute nije validan."
+  numeric: ":attribute mora da bude broj."
+  regex: ":attribute format nije validan."
+  required: ":attribute polje je neophodno."
+  required_if: ":attribute polje je neophodno kada :other je :value."
+  required_with: ":attribute polje je neophodno kada :values je prisutna."
+  required_with_all: ":attribute polje je neophodno kada :values je prisutna."
+  required_without: ":attribute polje je neophodno kada :values nije prisutna."
+  required_without_all: ":attribute polje je neophodno kada ni jedna od :values nije prisutna."
+  same: ":attribute i :other moraju da se poklapaju."
+  size:
+    numeric: ":attribute mora da bude :size."
+    file: ":attribute mora da bude :size kilobajta."
+    string: ":attribute mora da bude :size karaktera."
+    array: ":attribute mora da sadrži :size stavke."
+  string: ":attribute mora da bude tekst."
+  timezone: ":attribute mora da bude validna zona."
+  unique: ":attribute je zauzet."
+  url: ":attribute format nije validan."
+
+  attributes:
+    username: korisničko ime
+    password: lozinka
+    email: email
+    title: naziv
+    content: sadržaj
+    name_singular: ime (jednina)
+    name_plural: ime (množina)

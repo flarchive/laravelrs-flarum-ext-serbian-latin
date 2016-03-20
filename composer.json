@@ -1,0 +1,37 @@
+{
+    "name": "laravelrs/flarum-ext-serbian-latin",
+    "type": "flarum-extension",
+    "description": "Serbian (Latin Script) language pack.",
+    "homepage": "https://github.com/laravelrs/flarum-ext-serbian-latin",
+    "keywords": ["locale"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Laravel Serbia",
+            "email": "laravel.rs@gmail.com",
+            "homepage": "https://laravel.rs/"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/laravelrs/flarum-ext-serbian-latin/issues",
+        "source": "https://github.com/laravelrs/flarum-ext-serbian-latin"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.4"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Serbian (Latin Script)",
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#fff",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "sr-Latn",
+            "title": "Srpski"
+        }
+    }
+}

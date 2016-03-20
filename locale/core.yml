@@ -1,0 +1,447 @@
+core:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Strings in this namespace are used by the admin interface.
+  admin:
+
+    # These strings are used in the Appearance page.
+    appearance:
+      colored_header_label: Obojeno Zaglavlje
+      colors_heading: Boje
+      colors_text: "Odaberi dve boje radi stilizovanja foruma. Prva će biti upotrebljena kao boja za markiranje, dok druga će biti upotrebljena za stilizovanje pozadinskih elemenata."
+      custom_styles_heading: Specifični Stilovi
+      custom_styles_text: Prilagodi izgled svog foruma dodavanjem LESS/CSS koda koji će biti dodat preko Flarumovih standardnih stilova.
+      dark_mode_label: Tamni Mod
+      edit_css_button: Izmeni Specifični CSS
+      enter_hex_message: Unesi heksadecimalnu vrednost boje.
+      submit_button: => core.ref.save_changes
+
+    # These strings are used in the Basics page.
+    basics:
+      all_discussions_label: => core.ref.all_discussions
+      default_language_heading: Standardni Jezik
+      forum_description_heading: Opis Foruma
+      forum_description_text: Unesi kratku rečenicu ili dve koje opisuju tvoju zajednicu. Ovo će se pojaviti u meta oznakama i biće prikazano u pretraživačima.
+      forum_title_heading: Naziv Foruma
+      home_page_heading: Početna Strana
+      home_page_text: "Odaberi stranu koju će korisnici prvo videti kada posete tvoj forum. Ako uneseš specifičnu vrednost, upotrebi putanju koja je relativna na koren foruma."
+      saved_message: Tvoje izmene su sačuvane.
+      submit_button: => core.ref.save_changes
+      welcome_banner_heading: Baner Dobrodošlice
+      welcome_banner_text: Podesi tekst koji će biti prikazan u baneru na strani Svih Diskusija. Iskoristi ovo da pozdravis goste svog foruma.
+
+    # These strings are used in the Dashboard page.
+    dashboard:
+      beta_warning_text: "Ovaj <strong>beta softver</strong> je dostupan primarno kako bi nam pomogli da ga testiramo i unapredimo; ne treba ga koristiti u produkciji."
+      contributing_text: "Želiš da tražiš propuste i doprineseš? Pročitaj ovu <a>dokumentaciju</a>."
+      extension_text: "Zainteresovan za razvoj dodataka? Pročitaj ovu <a>dokumentaciju</a>."
+      features_text: "Imaš ideju kako da unapredimo neku funkcionalnost? Ispričaj nam sve o tome <a>ovde</a>."
+      support_text: "Pronašao si propust? Prijavi ga na našem forumu, u sekciji za <a>Podršku</a>."
+      troubleshooting_text: "Imaš probleme? Prati instrukcije u ovoj <a>dokumentaciji</a>."
+      version_text: "Hvala što si probao Flarum! Koristiš verziju {version}."
+
+    # These strings are used in the Edit Group modal dialog.
+    edit_group:
+      color_label: Boja
+      delete_button: Obriši Grupu
+      delete_confirmation: "Da li si siguran da želiš da obrišeš ovu grupu? Članovi grupe NEĆE biti obrisani."
+      icon_label: Ikonica
+      icon_text: "Unesi ime klase bilo koje <a>FontAwesome</a> ikonice, <em>bez</em> <code>fa-</code> prefiksa."
+      name_label: Ime
+      plural_placeholder: Množina (pr. Moderatori)
+      singular_placeholder: Jednina (pr. Moderator)
+      submit_button: => core.ref.save_changes
+      title: Napravi Grupu
+
+    # These strings are used in the Extensions page.
+    extensions:
+      add_button: Ubaci Dodatak
+      disable_button: Isključi
+      enable_button: Uključi
+      settings_button: => core.ref.settings
+      uninstall_button: Obriši
+
+    # This string is used in the session dropdown menu.
+    header:
+      log_out_button: => core.ref.log_out
+
+    # This string is used in the modal dialog displayed when loading extensions.
+    loading:
+      title: Obradjuje se...
+
+    # These strings are used in the navigation bar.
+    nav:
+      appearance_button: Izgled
+      appearance_text: "Preuredi forum izmenom boja, logoa, i ostalih varijabli."
+      basics_button: Osnove
+      basics_text: "Promeni naslov, jezik, i ostala osnovna podešavanja foruma."
+      dashboard_button: Komandna Tabla
+      dashboard_text: Brzi pogled na forum.
+      extensions_button: Dodaci
+      extensions_text: Ubaci dodatne funkcionalnosti u svoj forum kako bi bio specifičan.
+      permissions_button: Dozvole
+      permissions_text: Promeni ko sta može da vidi i uradi.
+
+    # These strings are used in the Permissions page of the admin interface.
+    permissions:
+      allow_renaming_label: Dozvoli preimenovanje
+      allow_post_editing_label: Dozvoli izmenu poruka
+      create_heading: Kreiranje
+      delete_discussions_forever_label: Brisanje diskusija zauvek
+      delete_discussions_label: Brisanje diskusija
+      delete_posts_forever_label: Brisanje poruka zauvek
+      edit_and_delete_posts_label: Izmene i brisanja poruka
+      global_heading: Globalna
+      moderate_heading: Moderator
+      new_group_button: Nova Grupa
+      participate_heading: Učestvuj
+      read_heading: Pročitaj
+      rename_discussions_label: Preimenovanje diskusija
+      reply_to_discussions_label: Odgovaranje u diskusijama
+      sign_up_label: Registrovanje
+      start_discussions_label: Započeti diskusiju
+      view_discussions_label: Pregledati diskusiju
+
+    # These strings are used in the dropdown menus on the Permissions page.
+    permissions_controls:
+      allow_indefinitely_button: Neodredjeno
+      allow_some_minutes_button: "Za {count} minut|Za {count} minuta"
+      allow_ten_minutes_button: Za 10 minuta
+      allow_until_reply_button: Do narednog odgovora
+      everyone_button: Svako
+      members_button: => core.group.members
+      signup_closed_button: Zatvoreno
+      signup_open_button: Otvoreno
+
+  # Strings in this namespace are used by the forum user interface.
+  forum:
+
+    # These strings are used in the Change Email modal dialog.
+    change_email:
+      confirmation_message: => core.ref.confirmation_email_sent
+      dismiss_button: => core.ref.okay
+      submit_button: => core.ref.save_changes
+      title: => core.ref.change_email
+
+    # These strings are used in the Change Password modal dialog.
+    change_password:
+      send_button: Pošalji Email za Resetovanje Lozinke
+      text: Klikni na dugme ispod i pronadji email koji sadrži link o izmeni lozinke.
+      title: => core.ref.change_password
+
+    # These strings are used by the composer controls.
+    composer:
+      close_tooltip: Zatvori
+      exit_full_screen_tooltip: Zatvori Prikaz Preko Celog Ekrana
+      full_screen_tooltip: Ceo Ekran
+      minimize_tooltip: Smanji
+
+    # These strings are used by the composer when starting a discussion.
+    composer_discussion:
+      body_placeholder: Napiši Poruku...
+      discard_confirmation: "Nisi sačuvao svoju diskusiju. Da li želiš da je odbaciš?"
+      submit_button: Započni Diskusiju
+      title_placeholder: Naslov Diskusije
+
+    # These strings are used by the composer when editing a post.
+    composer_edit:
+      discard_confirmation: "Nisi sačuvao svoje izmene. Da li želiš da ih odbaciš?"
+      post_link: "Poruka #{number} u {discussion}"
+      submit_button: => core.ref.save_changes
+
+    # These strings are used by the composer when replying to a discussion.
+    composer_reply:
+      body_placeholder: => core.ref.write_a_reply
+      discard_confirmation: "Nisi sačuvao svoj odgovor. Da li želiš da ga odbaciš?"
+      posted_message: Tvoj odgovor je sačuvan.
+      submit_button: Sačuvaj Odgovor
+      view_button: Pogledaj
+
+    # These strings are used by the discussion control buttons.
+    discussion_controls:
+      cannot_reply_button: Odgovor Blokiran
+      cannot_reply_text: Nemaš dozvolu da odgovoriš u ovoj diskusiji.
+      delete_button: => core.ref.delete
+      delete_confirmation: "Da li si siguran da želiš da obrišeš ovu diskusiju?"
+      delete_forever_button: => core.ref.delete_forever
+      log_in_to_reply_button: Prijavi Se da bi Odgovorio
+      rename_button: Preimenuj
+      rename_text: "Unesi novi naslov za ovu diskusiju:"
+      reply_button: => core.ref.reply
+      restore_button: => core.ref.restore
+
+    # These strings are used in the discussion list.
+    discussion_list:
+      empty_text: "Izgleda da ovde nema diskusija. Zašto ti ne bi započeo neku?"
+      load_more_button: => core.ref.load_more
+      mark_as_read_tooltip: Pročitano
+      replied_text: "{username} odgovorio {ago}"
+      started_text: "{username} započeo {ago}"
+
+    # These strings are used in the Edit User modal dialog (admin function).
+    edit_user:
+      email_label: => core.ref.email
+      password_label: => core.ref.password
+      submit_button: => core.ref.save_changes
+      username_label: => core.ref.username
+
+    # These strings are used in the Forgot Password modal dialog.
+    forgot_password:
+      dismiss_button: => core.ref.okay
+      email_placeholder: => core.ref.email
+      email_sent_message: Poslali smo ti email koji sadrži link za resetovanje lozinke. Proveri spam ako ne stigne u roku od par minuta.
+      submit_button: Promeni Lozinku
+      text: Unesi svoju email adresu i mi ćemo ti poslati link za resetovanje lozinke.
+      title: Zaboravio Lozinku
+
+    # These strings are used in the header and session dropdown menu.
+    header:
+      admin_button: Administracija
+      log_in_link: => core.ref.log_in
+      log_out_button: => core.ref.log_out
+      profile_button: Profil
+      search_placeholder: Pretraži Forum
+      settings_button: => core.ref.settings
+      sign_up_link: => core.ref.sign_up
+
+    # These strings are used on the index page, peripheral to the discussion list.
+    index:
+      all_discussions_link: => core.ref.all_discussions
+      cannot_start_discussion_button: Ne Mogu Da Započnem Diskusiju
+      mark_all_as_read_tooltip: => core.ref.mark_all_as_read
+      refresh_tooltip: Osveži
+      start_discussion_button: Započni Diskusiju
+
+    # These strings are used by the sorting control above the discussion list.
+    index_sort:
+      latest_button: Zadnje
+      newest_button: Najnovije
+      oldest_button: Najstarije
+      relevance_button: Relevantne
+      top_button: Najpopularnije
+
+    # These strings are used in the Log In modal dialog.
+    log_in:
+      confirmation_required_message: "Neophodno je da potvrdiš svoju email adresu pre nego što se prijaviš. Poslali smo konfirmacioni email na {email}. Ako ne stigne uskoro, proveri spam."
+      forgot_password_link: "Zaboravio lozinku?"
+      invalid_login_message: Tvoji podaci za prijavu su netačni.
+      password_placeholder: => core.ref.password
+      sign_up_text: "Nemaš nalog? <a>Registruj Se</a>"
+      submit_button: => core.ref.log_in
+      title: => core.ref.log_in
+      username_or_email_placeholder: Korisničko Ime ili Email
+
+    # These strings are used by the Notifications dropdown, a.k.a. "the bell".
+    notifications:
+      discussion_renamed_text: "{username} je promenio naslov"
+      empty_text: Nema Obaveštenja
+      mark_all_as_read_tooltip: => core.ref.mark_all_as_read
+      title: => core.ref.notifications
+      tooltip: => core.ref.notifications
+
+    # These strings are used by tooltips displayed for individual posts.
+    post:
+      edited_tooltip: "{username} je izmenio pre {ago}"
+      number_tooltip: "Poruka #{number}"
+
+    # These strings are used by the post control buttons.
+    post_controls:
+      delete_button: => core.ref.delete
+      delete_forever_button: => core.ref.delete_forever
+      edit_button: => core.ref.edit
+      restore_button: => core.ref.restore
+
+    # These strings are used in the scrubber to the right of the post stream.
+    post_scrubber:
+      now_link: Sada
+      original_post_link: Originalna Poruka
+      unread_text: "{count} nepročitana"
+      viewing_text: "{index} od {count} poruke|{index} od {count} poruka"
+
+    # These strings are displayed between posts in the post stream.
+    post_stream:
+      discussion_renamed_text: "{username} promenio naslov iz {old} u {new}."
+      reply_placeholder: => core.ref.write_a_reply
+      time_lapsed_text: "{period} kasnije"
+
+    # These strings are used by the search results dropdown list.
+    search:
+      all_discussions_button: 'Pronadji u svim diskusijama "{query}"'
+      discussions_heading: => core.ref.discussions
+      users_heading: Korisnici
+
+    # These strings are used in the Settings page.
+    settings:
+      account_heading: Nalog
+      change_email_button: => core.ref.change_email
+      change_password_button: => core.ref.change_password
+      notifications_heading: => core.ref.notifications
+      notify_by_email_heading: => core.ref.email
+      notify_by_web_heading: Mreža
+      notify_discussion_renamed_label: Neko je preimenovao diskusiju koju sam započeo
+      privacy_disclose_online_label: Dozvoli drugima da vide kada sam prijavljen
+      privacy_heading: Privatnost
+      title: => core.ref.settings
+
+    # These strings are used in the Sign Up modal dialog.
+    sign_up:
+      confirmation_message: => core.ref.confirmation_email_sent
+      email_placeholder: => core.ref.email
+      dismiss_button: => core.ref.okay
+      log_in_text: "Već imaš nalog? <a>Prijavi Se</a>"
+      password_placeholder: => core.ref.password
+      submit_button: => core.ref.sign_up
+      title: => core.ref.sign_up
+      username_placeholder: => core.ref.username
+      welcome_text: "Dobro došao, {username}!"
+
+    # These strings are used in the user profile page and profile popup.
+    user:
+      avatar_remove_button: Ukloni
+      avatar_upload_button: Postavi
+      bio_placeholder: Napiši nešto o sebi
+      discussions_link: => core.ref.discussions
+      joined_date_text: "Pridružio se {ago}"
+      online_text: Prisutan
+      posts_load_more_button: => core.ref.load_more
+      posts_link: Prouka
+      settings_link: => core.ref.settings
+
+    # These strings are found on the user profile page (admin function).
+    user_controls:
+      button: Kontrole
+      delete_button: => core.ref.delete
+      delete_confirmation: "Da li si siguran da želiš da obrišeš ovog korisnika? Sve njegove poruke će biti obrisane."
+      edit_button: => core.ref.edit
+
+  # Strings in this namespace are used by the forum and admin interfaces.
+  lib:
+
+    # These strings are displayed as tooltips for discussion badges.
+    badge:
+      hidden_tooltip: Prikriven
+
+    # This string is displayed in place of the username of deleted user account.
+    deleted_user_text: "[obrisan]"
+
+    # These strings are displayed as error messages.
+    error:
+      generic_message: "Uups! Nesto nije kako treba. Osveži stranicu i probaj ponovo."
+      permission_denied_message: Nemas dozvolu da to uradiš.
+      not_found_message: Traženi resurs nije pronadjen.
+      rate_limit_exceeded_message: Ideš prebrzo. Probaj ponovo za par sekundi.
+
+    # These strings are used as suffixes when abbreviating numbers.
+    number_suffix:
+      kilo_text: K
+      mega_text: M
+
+    # These strings are used to punctuate a series of items.
+    series:
+      glue_text: ", "
+      two_text: "{first} i {second}"
+      three_text: "{first}, {second}, i {third}"
+
+  # Strings in this namespace are used in basic HTML interface.
+  basic:
+    loading_text: Učitavanje...
+    load_error_message: Nesto nije kako treba pri pokušaju učitavanja pune verzije sajta.
+    javascript_disabled_message: Za potpuni doživljaj ovog sajta najbolje je koristiti moderan pretraživač sa JavaScriptom.
+    next_page_button: Sledeća Strana
+    previous_page_button: Prethodna Strana
+
+  ##
+  # REUSED STRINGS - These keys should not be used directly in code!
+  ##
+
+  # Strings in this namespace are referenced by two or more unique keys.
+  ref:
+    all_discussions: Sve Diskusije
+    change_email: Promeni Email
+    change_password: Promeni Lozinku
+    confirmation_email_sent: "Poslali smo konfirmacioni email na {email}. Ako ne stigne uskoro, proveri spam."
+    delete: Obriši
+    delete_forever: Obriši Zauvek
+    discussions: Diskusije
+    edit: Izmeni
+    email: Email
+    load_more: Učitaj Još
+    log_in: Prijavi se
+    log_out: Odjavi se
+    mark_all_as_read: Obeleži Sve kao Pročitano
+    notifications: Obaveštenja
+    okay: OK                                     # Referenced by flarum-tags.yml
+    password: Lozinka
+    reply: Odgovor                                 # Referenced by flarum-mentions.yml
+    restore: Vrati
+    save_changes: Sačuvaj Izmene                   # Referenced by flarum-tags.yml
+    settings: Podešavanja
+    sign_up: Registruj Se
+    some_others: "{count} drugi|{count} drugi"  # Referenced by flarum-likes.yml, flarum-mentions.yml
+    username: Korisničko Ime
+    write_a_reply: Napiši Odgovor...
+    you: Ti                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
+
+  ##
+  # EMAIL CONTENT
+  ##
+
+  # Strings in this namespace are used in emails sent by the forum.
+  email:
+
+    # These strings are used in emails sent when users register new accounts.
+    activate_account:
+      subject: Aktiviraj Svoj Novi Nalog
+      body: |
+        Ćao {username}!
+
+        Neko (nadamo se ti!) se prijavio na {forum} sa ovom email adresom.
+
+        Ako si to bio ti, samo klikni na link i tvoj nalog će biti aktiviran:
+        {url}
+
+        Ako se nisi ti prijavio, samo ignoriši ovaj email.
+
+    # These strings are used in emails sent when users change their email address.
+    confirm_email:
+      subject: Potvrdi Svoju Novu Email Adresu
+      body: |
+        Ćao {username}!
+
+        Neko (nadamo se ti!) je promenio svoju email adresu na {forum} u ovu.
+
+        Ako si to bio ti, samo klikni na link i tvoj email će biti potvrdjen:
+        {url}
+
+        Ako to nisi bio ti, samo ignoriši ovaj email.
+
+    # These strings are used in emails sent when users ask to reset their passwords.
+    reset_password:
+      subject: Promeni Svoju Lozinku
+      body: |
+        Ćao {username}!
+
+        Neko (nadamo se ti!) je zahtevao izmenu zadoravljene lozinke za tvoj nalog na {forum}.
+
+        Ako si to bio ti, samo klikni na link da bi izmenio lozinku:
+        {url}
+
+        Ako ne želiš da izmenš svoju lozinku, samo ignoriši ovaj email i ništa se neće promeniti.
+
+  ##
+  # GROUP NAMES
+  ##
+
+  # Strings in this namespace are used to translate default group names.
+  group:
+    admin: Admin
+    admins: Admini
+    guest: Gost
+    guests: Gosti
+    member: Član
+    members: Članovi
+    mod: Moderator
+    mods: Moderatori

@@ -2,13 +2,16 @@
 
 > **Read-only archive of released versions of laravelrs/flarum-ext-serbian-latin.** Not for installation: use [Packagist](https://packagist.org/packages/laravelrs/flarum-ext-serbian-latin) or the [upstream repository](https://github.com/laravelrs/flarum-ext-serbian-latin).
 
-**0** versions archived · Latest: [`v0.3.0`](https://github.com/flarchive/laravelrs-flarum-ext-serbian-latin/tree/archive/v0.3.0) · License: `MIT` · Flarum: `^0.1.0-beta.4`
+**4** versions archived · Latest: [`v0.3.0`](https://github.com/flarchive/laravelrs-flarum-ext-serbian-latin/tree/archive/v0.3.0) · License: `MIT` · Flarum: `^0.1.0-beta.4`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `v0.1.0` | 2016-03-13 | `^0.1.0-beta.4` | [Browse](https://github.com/flarchive/laravelrs-flarum-ext-serbian-latin/tree/archive/v0.1.0) |
+| `v0.2.0` | 2016-03-16 | `^0.1.0-beta.4` | [Browse](https://github.com/flarchive/laravelrs-flarum-ext-serbian-latin/tree/archive/v0.2.0) |
+| `v0.2.1` | 2016-03-18 | `^0.1.0-beta.4` | [Browse](https://github.com/flarchive/laravelrs-flarum-ext-serbian-latin/tree/archive/v0.2.1) |
+| `v0.3.0` | 2016-03-20 | `^0.1.0-beta.4` | [Browse](https://github.com/flarchive/laravelrs-flarum-ext-serbian-latin/tree/archive/v0.3.0) |
 
 Catalog entry: [packages/laravelrs-flarum-ext-serbian-latin.json](https://github.com/flarchive/archive-index/blob/main/packages/laravelrs-flarum-ext-serbian-latin.json)
 
